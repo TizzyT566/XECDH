@@ -11,4 +11,4 @@ For subsequent connections the server and client will generate a new keypair (fo
 
 The obtained public key is to be used to derive an intermediate shared key.
 
-The 2 derived keys are then concatinated to each other and hashed to be used as the AES key/iv.
+The 2 derived keys are then concatinated to each other and hashed to be used as the AES key/iv via a DeriveKey(...) method.
